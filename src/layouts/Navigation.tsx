@@ -73,7 +73,7 @@ const Navigation = ({ isOpen, toggleShowNav }: NavigationProps) => {
             <motion.div
                 animate={isOpen ? "open" : "closed"}
                 variants={variants}
-                className="absolute top-4 left-0 w-full"
+                className="absolute top-4 left-0 w-full block md:hidden"
             >
                 <div className="flex justify-between items-center mx-4">
                     <Link href="#home">
