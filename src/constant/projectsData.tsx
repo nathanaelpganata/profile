@@ -4,7 +4,7 @@ export const projectsData = [
     title: 'AniQ',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum quo saepe nam excepturi, ipsa expedita eveniet quasi ea possimus placeat iste hic magni maiores et facere. Inventore, suscipit! Minus.',
     url: 'www.haha',
-    img: '/images/a.png',
+    img: '/images/profile-picture.jpg',
     date: '02 Jan 2021',
     stacks: [
       { id: 1, name: 'ReactJS' },
@@ -17,7 +17,7 @@ export const projectsData = [
     title: 'AniQ',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum quo saepe nam excepturi, ipsa expedita eveniet quasi ea possimus placeat iste hic magni maiores et facere. Inventore, suscipit! Minus.',
     url: 'www.haha',
-    img: '/images/a.png',
+    img: '/images/profile-picture.jpg',
     date: '02 Jan 2022',
     stacks: [
       { id: 1, name: 'ReactJS' },
@@ -30,7 +30,7 @@ export const projectsData = [
     title: 'AniQ',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum quo saepe nam excepturi, ipsa expedita eveniet quasi ea possimus placeat iste hic magni maiores et facere. Inventore, suscipit! Minus.',
     url: 'www.haha',
-    img: '/images/a.png',
+    img: '/images/profile-picture.jpg',
     date: '02 Jan 2023',
     stacks: [
       { id: 1, name: 'ReactJS' },
@@ -43,7 +43,7 @@ export const projectsData = [
     title: 'AniQ',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum quo saepe nam excepturi, ipsa expedita eveniet quasi ea possimus placeat iste hic magni maiores et facere. Inventore, suscipit! Minus.',
     url: 'www.haha',
-    img: '/images/a.png',
+    img: '/images/profile-picture.jpg',
     date: '02 Jan 2020',
     stacks: [
       { id: 1, name: 'ReactJS' },
@@ -56,7 +56,7 @@ export const projectsData = [
     title: 'AniQ',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum quo saepe nam excepturi, ipsa expedita eveniet quasi ea possimus placeat iste hic magni maiores et facere. Inventore, suscipit! Minus.',
     url: 'www.haha',
-    img: '/images/a.png',
+    img: '/images/profile-picture.jpg',
     date: '02 Jan 2020',
     stacks: [
       { id: 1, name: 'ReactJS' },
@@ -69,7 +69,7 @@ export const projectsData = [
     title: 'AniQ',
     desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem laborum quo saepe nam excepturi, ipsa expedita eveniet quasi ea possimus placeat iste hic magni maiores et facere. Inventore, suscipit! Minus.',
     url: 'www.haha',
-    img: '/images/a.png',
+    img: '/images/profile-picture.jpg',
     date: '02 Jan 2020',
     stacks: [
       { id: 1, name: 'ReactJS' },

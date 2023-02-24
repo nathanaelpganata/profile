@@ -5,20 +5,7 @@ import NextImage from 'next/image';
 import Link from 'next/link';
 import React, { useEffect } from 'react';
 
-type StacksProps = {
-  id: number;
-  name: string;
-};
-
-type ProjectsProps = {
-  id: number;
-  title: string;
-  desc: string;
-  url: string;
-  img: string;
-  date: string;
-  stacks: StacksProps[];
-};
+import { ProjectsTypes } from '@/types/entities/projects';
 
 const ProjectCards = ({
   id,
@@ -28,10 +15,9 @@ const ProjectCards = ({
   img,
   date,
   stacks,
-}: ProjectsProps) => {
+}: ProjectsTypes) => {
   useEffect(() => {
     AOS.init();
-    AOS.refresh();
   }, []);
   return (
     <div className='flex flex-col flex-shrink-0 snap-start mx-4 h-[31rem] md:h-[37rem] w-[17rem] md:w-[25rem] mb-6'>

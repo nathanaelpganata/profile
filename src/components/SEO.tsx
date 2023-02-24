@@ -1,11 +1,8 @@
-import { NextSeo, NextSeoProps } from 'next-seo';
+import { NextSeo } from 'next-seo';
 
-type SEOProps = {
-  title: string;
-  description?: string;
-} & NextSeoProps;
+import { SEOTypes } from '@/types/entities/seo';
 
-export default function SEO({ title, description, ...rest }: SEOProps) {
+export default function SEO({ title, description, ...rest }: SEOTypes) {
   return (
     <NextSeo
       title={title}

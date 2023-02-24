@@ -10,7 +10,6 @@ import ProjectCards from './cards/project-cards.page';
 const ProjectsSection = () => {
   useEffect(() => {
     AOS.init();
-    AOS.refresh();
   }, []);
   return (
     <div className='flex relative justify-center items-center h-screen w-full'>

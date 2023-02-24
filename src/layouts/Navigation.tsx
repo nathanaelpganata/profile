@@ -8,12 +8,12 @@ import {
 } from 'react-icons/ai';
 import { GiHamburgerMenu, GiHollowCat } from 'react-icons/gi';
 
-type NavigationProps = {
+type NavigationTypes = {
   isOpen: boolean;
   toggleShowNav: () => void;
 };
 
-const Navigation = ({ isOpen, toggleShowNav }: NavigationProps) => {
+const Navigation = ({ isOpen, toggleShowNav }: NavigationTypes) => {
   const links = [
     { href: '#projects', label: 'Projects' },
     { href: '#mastery', label: 'Mastery' },

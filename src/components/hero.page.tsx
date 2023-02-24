@@ -7,7 +7,6 @@ import React, { useEffect } from 'react';
 const HeroSection = () => {
   useEffect(() => {
     AOS.init();
-    AOS.refresh();
   }, []);
 
   return (

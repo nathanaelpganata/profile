@@ -1,10 +1,10 @@
 import React from 'react';
 
-import { LayoutProps } from '@/types/entities/layout';
+import { LayoutTypes } from '@/types/entities/layout';
 
 import Navigation from './Navigation';
 
-const Layout = ({ children }: LayoutProps) => {
+const Layout = ({ children }: LayoutTypes) => {
   const [isOpen, setIsOpen] = React.useState(false);
   const toggleShowNav = () => {
     setIsOpen((isOpen) => !isOpen);
