@@ -6,7 +6,12 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:strict": "next lint --max-warnings 0",
+    "format:check": "prettier --check .",
+    "format:write": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -14,8 +19,7 @@
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
     "aos": "^2.3.4",
-    "eslint": "8.34.0",
-    "eslint-config-next": "13.1.6",
+    "eslint": "^8.34.0",
     "framer-motion": "^9.0.4",
     "next": "13.1.6",
     "next-seo": "^5.15.0",
@@ -26,9 +30,21 @@
   },
   "devDependencies": {
     "@types/aos": "^3.0.4",
+    "@typescript-eslint/eslint-plugin": "^5.53.0",
     "autoprefixer": "^10.4.13",
+    "eslint-config-next": "13.1.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-simple-import-sort": "^8.0.0",
+    "eslint-plugin-unused-imports": "^2.0.0",
+    "husky": "^8.0.3",
     "postcss": "^8.4.21",
+    "prettier": "^2.8.4",
     "tailwind-scrollbar": "^2.1.0",
     "tailwindcss": "^3.2.7"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "yarn lint:strict && yarn test && yarn format:write && yarn typecheck"
+    }
   }
 }
