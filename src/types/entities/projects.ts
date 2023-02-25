@@ -10,5 +10,5 @@ export type ProjectsTypes = {
   url: string;
   img: string;
   date: string;
-  stacks: StacksTypes[];
+  stacks?: StacksTypes[];
 };
