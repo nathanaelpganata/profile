@@ -21,8 +21,14 @@ const Navigation = ({ isOpen, toggleShowNav }: NavigationTypes) => {
   ];
 
   const contacts = [
-    { href: '/', logo: <AiOutlineGithub className='w-8 h-8' /> },
-    { href: '/', logo: <AiFillLinkedin className='w-8 h-8' /> },
+    {
+      href: 'https://github.com/nathanaelpganata',
+      logo: <AiOutlineGithub className='w-8 h-8' />,
+    },
+    {
+      href: 'https://www.linkedin.com/in/nathanaelpg/',
+      logo: <AiFillLinkedin className='w-8 h-8' />,
+    },
   ];
 
   const variants = {

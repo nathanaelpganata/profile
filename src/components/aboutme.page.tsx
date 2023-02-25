@@ -18,7 +18,7 @@ const AboutMeSection = () => {
         <div className='flex flex-col md:flex-row max-w-[18rem] sm:max-w-lg md:max-w-2xl lg:max-w-3xl xl:max-w-5xl bg-coal-100 rounded-3xl p-6 gap-8 mt-32'>
           <div className='md:w-1/3'>
             <NextImage
-              src='/images/profile-picture.jpg'
+              src='/images/profile-picture.png'
               width='800'
               height='1100'
               alt='profile-picture'
@@ -34,25 +34,10 @@ const AboutMeSection = () => {
               </h1>
 
               <p className='mt-4 text-sm md:text-base lg:text-lg font-medium'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-                quasi autem adipisci ullam quod nostrum maiores blanditiis totam
-                maxime quam, dignissimos vel illum repellendus ipsum nobis. Sunt
-                deleniti placeat quisquam nisi libero, consectetur laudantium
-                odit reiciendis aliquid quibusdam ab in quo minima veritatis,
-                reprehenderit ducimus incidunt tenetur numquam dolores. Esse
-                praesentium suscipit nostrum exercitationem vel id possimus
-                aliquam illum doloremque.
-              </p>
-            </div>
-            <div>
-              <h2 className='text-lg md:text-xl lg:text-2xl font-semibold'>
-                Connect With Me
-              </h2>
-              <p className='mt-2 text-sm md:text-base lg:text-lg font-medium'>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Quaerat, ab optio maxime dolorem corrupti fugiat delectus animi
-                soluta iure veniam assumenda impedit, accusantium praesentium
-                minus aperiam vero ex. Saepe, itaque.
+                Aspiring web developer and data analyst. Specialize in front-end
+                development and analyzing data using Python, R, and SQL.
+                Flexible in individual or team environment. Having an interest
+                in programming, project management, and cyber security.
               </p>
             </div>
           </div>
