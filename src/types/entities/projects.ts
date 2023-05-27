@@ -7,8 +7,9 @@ export type ProjectsTypes = {
   id: number;
   title: string;
   desc: string;
-  url: string;
   img: string;
   date: string;
+  liveUrl?: string;
+  gitUrl?: string;
   stacks?: StacksTypes[];
 };
