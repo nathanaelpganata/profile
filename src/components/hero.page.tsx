@@ -49,8 +49,8 @@ const HeroSection = () => {
           />
         </p>
 
-        <div className='absolute top-2 border-2 w-32 h-32 rounded-full animate-ping border-amber-200'></div>
-        <div className='absolute -top-16 border-2 w-96 h-96 rounded-full opacity-50 animate-ping border-ruby'></div>
+        <div className='absolute top-2 border-2 w-32 h-32 rounded-full animate-ping  border-amber-200'></div>
+        {/* <div className='absolute -top-16 border-2 w-96 h-96 rounded-full opacity-50  border-ruby'></div> */}
         <div className='absolute -top-16 border-2 w-72 h-72 rounded-full opacity-50 animate-pulse border-amber-200'></div>
         <div className='absolute -top-44 border-2 w-[40rem] h-[40rem] rounded-full opacity-50 animate-pulse border-amber-200'></div>
         <div className='absolute -top-28 border-4 w-[60rem] rotate-45 h-[32rem] rounded-full opacity-90 animate-pulse border-amber-200'></div>

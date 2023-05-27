@@ -20,7 +20,7 @@ const ProjectCards = ({
     AOS.init();
   }, []);
   return (
-    <div className='flex flex-col flex-shrink-0 snap-start mx-4 h-[31rem] md:h-[37rem] w-[17rem] md:w-[20rem] mb-6 select-none opacity-100 md:opacity-70 hover:opacity-100 duration-200 transition'>
+    <div className='flex flex-col group flex-shrink-0 snap-start mx-4 h-[31rem] md:h-[37rem] w-[17rem] md:w-[20rem] mb-6 select-none opacity-100 md:opacity-70 hover:opacity-100 duration-200 transition'>
       <div className='h-1/3 bg-creme rounded-t-xl overflow-hidden'>
         <NextImage
           src={img}
@@ -29,10 +29,10 @@ const ProjectCards = ({
           alt={id.toString()}
           quality={100}
           priority
-          className='h-full w-full object-cover hover:scale-125 transition duration-200 object-top'
+        className='h-full w-full object-cover group-hover:scale-110 transition duration-200 object-top'
         />
       </div>
-      <div className='h-2/3 bg-coal-100 rounded-b-lg rounded-t-2xl -translate-y-4 flex flex-col justify-between px-3 py-2'>
+      <div className='h-2/3 bg-[#282828] rounded-b-lg rounded-t-2xl -translate-y-4 flex flex-col justify-between px-3 py-2'>
         <div className='space-y-2 md:space-y-4 mt-2'>
           <div className='flex justify-between items-start gap-4'>
             <h1 className='text-2xl md:text-3xl font-bold'>{title}</h1>
@@ -51,7 +51,7 @@ const ProjectCards = ({
             ))}
           </div>
           <div>
-            <p className='text-sm md:text-base'>{desc}</p>
+            <p className='text-sm md:text-lg'>{desc}</p>
           </div>
         </div>
         <Link

@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 import AOS from 'aos';
 import NextImage from 'next/image';
 import React, { useEffect } from 'react';
+import { AiTwotoneMail } from 'react-icons/ai';
 
 const AboutMeSection = () => {
   useEffect(() => {
@@ -27,7 +28,7 @@ const AboutMeSection = () => {
               className='rounded-3xl z-10 object-cover w-1/2 md:w-full'
             />
           </div>
-          <div className='md:w-2/3 flex flex-col justify-between'>
+          <div className='md:w-2/3 flex flex-col'>
             <div>
               <h1 className='text-xl md:text-2xl lg:text-4xl font-semibold flex flex-wrap'>
                 Nathanael Putra Ganata
@@ -39,6 +40,35 @@ const AboutMeSection = () => {
                 Flexible in individual or team environment. Having an interest
                 in programming, project management, and cyber security.
               </p>
+            </div>
+            <hr className='opacity-50 my-3 sm:my-5' />
+            <div className=''>
+              <h2 className='text-lg md:text-xl lg:text-2xl font-semibold flex flex-wrap mb-2'>
+                Feel free to{' '}
+                <span className='before:block before:absolute before:-inset-y-1 before:-inset-x-1.5 before:-skew-y-3 before:bg-amber-500/70 relative inline-block mx-3'>
+                  <span className='relative text-white'>contact</span>
+                </span>{' '}
+                me:
+              </h2>
+              <span className='flex flex-row gap-2 items-center'>
+                <AiTwotoneMail className='w-5 h-5 mt-1' />
+                <a
+                  href='mailto:nathanaelpg8@gmail.com'
+                  target='blank'
+                  className='hover:underline underline-offset-4 text-sm sm:text-lg'
+                >
+                  nathanaelpg8@gmail.com
+                </a>
+              </span>
+            </div>
+            <div className='mt-4 sm:mt-auto justify-end hidden xl:flex'>
+              <NextImage
+                src='/images/blackcat.gif'
+                alt='blackcat gif'
+                width={110}
+                height={200}
+                className='rounded-lg'
+              />
             </div>
           </div>
         </div>

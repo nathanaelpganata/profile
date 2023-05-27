@@ -8,7 +8,7 @@ export const masteryData = [
   {
     id: 2,
     name: 'CSS',
-    percentage: '95%',
+    percentage: '90%',
     image: '/images/logos/css-logo.png',
   },
   {
@@ -44,19 +44,19 @@ export const masteryData = [
   {
     id: 8,
     name: 'Django',
-    percentage: '75%',
+    percentage: '60%',
     image: '/images/logos/django-logo.png',
   },
   {
     id: 9,
     name: 'Python',
-    percentage: '80%',
+    percentage: '70%',
     image: '/images/logos/python-logo.png',
   },
   {
     id: 10,
     name: 'PHP',
-    percentage: '100%',
+    percentage: '60%',
     image: '/images/logos/php-logo.png',
   },
   {
